@@ -14,6 +14,14 @@
 		EA0CB7AA1D22A94A00140380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0CB7A81D22A94A00140380 /* LaunchScreen.storyboard */; };
 		EA0CB7B51D22A94A00140380 /* FINAL_LITTLE_MONSTERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CB7B41D22A94A00140380 /* FINAL_LITTLE_MONSTERTests.swift */; };
 		EA0CB7C01D22A94A00140380 /* FINAL_LITTLE_MONSTERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CB7BF1D22A94A00140380 /* FINAL_LITTLE_MONSTERUITests.swift */; };
+		EA0CB7CE1D22BAC500140380 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CB7CD1D22BAC500140380 /* DragImg.swift */; };
+		EA0CB7D01D22BEDD00140380 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CB7CF1D22BEDD00140380 /* MonsterImg.swift */; };
+		EA16805E1D44C41D0078719E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16805D1D44C41D0078719E /* MainMenu.swift */; };
+		EA1964841D41790800F5D2F8 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA19647F1D41790800F5D2F8 /* bite.wav */; };
+		EA1964851D41790800F5D2F8 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA1964801D41790800F5D2F8 /* cave-music.mp3 */; };
+		EA1964861D41790800F5D2F8 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA1964811D41790800F5D2F8 /* death.wav */; };
+		EA1964871D41790800F5D2F8 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA1964821D41790800F5D2F8 /* heart.wav */; };
+		EA1964881D41790800F5D2F8 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA1964831D41790800F5D2F8 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		EA0CB7BB1D22A94A00140380 /* FINAL-LITTLE-MONSTERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FINAL-LITTLE-MONSTERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0CB7BF1D22A94A00140380 /* FINAL_LITTLE_MONSTERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINAL_LITTLE_MONSTERUITests.swift; sourceTree = "<group>"; };
 		EA0CB7C11D22A94A00140380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0CB7CD1D22BAC500140380 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		EA0CB7CF1D22BEDD00140380 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		EA16805D1D44C41D0078719E /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		EA19647F1D41790800F5D2F8 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bite.wav; path = ../bite.wav; sourceTree = "<group>"; };
+		EA1964801D41790800F5D2F8 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "cave-music.mp3"; path = "../cave-music.mp3"; sourceTree = "<group>"; };
+		EA1964811D41790800F5D2F8 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = death.wav; path = ../death.wav; sourceTree = "<group>"; };
+		EA1964821D41790800F5D2F8 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = heart.wav; path = ../heart.wav; sourceTree = "<group>"; };
+		EA1964831D41790800F5D2F8 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = skull.wav; path = ../skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,20 @@
 		EA0CB79E1D22A94A00140380 /* FINAL-LITTLE-MONSTER */ = {
 			isa = PBXGroup;
 			children = (
+				EA19647F1D41790800F5D2F8 /* bite.wav */,
+				EA1964801D41790800F5D2F8 /* cave-music.mp3 */,
+				EA1964811D41790800F5D2F8 /* death.wav */,
+				EA1964821D41790800F5D2F8 /* heart.wav */,
+				EA1964831D41790800F5D2F8 /* skull.wav */,
 				EA0CB79F1D22A94A00140380 /* AppDelegate.swift */,
 				EA0CB7A11D22A94A00140380 /* ViewController.swift */,
 				EA0CB7A31D22A94A00140380 /* Main.storyboard */,
+				EA16805D1D44C41D0078719E /* MainMenu.swift */,
 				EA0CB7A61D22A94A00140380 /* Assets.xcassets */,
 				EA0CB7A81D22A94A00140380 /* LaunchScreen.storyboard */,
 				EA0CB7AB1D22A94A00140380 /* Info.plist */,
+				EA0CB7CD1D22BAC500140380 /* DragImg.swift */,
+				EA0CB7CF1D22BEDD00140380 /* MonsterImg.swift */,
 			);
 			path = "FINAL-LITTLE-MONSTER";
 			sourceTree = "<group>";
@@ -194,15 +218,18 @@
 					EA0CB79B1D22A94A00140380 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ML9FUD8KSJ;
+						LastSwiftMigration = 0810;
 					};
 					EA0CB7AF1D22A94A00140380 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ML9FUD8KSJ;
+						LastSwiftMigration = 0810;
 						TestTargetID = EA0CB79B1D22A94A00140380;
 					};
 					EA0CB7BA1D22A94A00140380 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ML9FUD8KSJ;
+						LastSwiftMigration = 0810;
 						TestTargetID = EA0CB79B1D22A94A00140380;
 					};
 				};
@@ -232,6 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1964881D41790800F5D2F8 /* skull.wav in Resources */,
+				EA1964841D41790800F5D2F8 /* bite.wav in Resources */,
+				EA1964861D41790800F5D2F8 /* death.wav in Resources */,
+				EA1964871D41790800F5D2F8 /* heart.wav in Resources */,
+				EA1964851D41790800F5D2F8 /* cave-music.mp3 in Resources */,
 				EA0CB7AA1D22A94A00140380 /* LaunchScreen.storyboard in Resources */,
 				EA0CB7A71D22A94A00140380 /* Assets.xcassets in Resources */,
 				EA0CB7A51D22A94A00140380 /* Main.storyboard in Resources */,
@@ -259,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16805E1D44C41D0078719E /* MainMenu.swift in Sources */,
+				EA0CB7D01D22BEDD00140380 /* MonsterImg.swift in Sources */,
+				EA0CB7CE1D22BAC500140380 /* DragImg.swift in Sources */,
 				EA0CB7A21D22A94A00140380 /* ViewController.swift in Sources */,
 				EA0CB7A01D22A94A00140380 /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +441,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -417,6 +454,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -428,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTERTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINAL-LITTLE-MONSTER.app/FINAL-LITTLE-MONSTER";
 			};
 			name = Debug;
@@ -440,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTERTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINAL-LITTLE-MONSTER.app/FINAL-LITTLE-MONSTER";
 			};
 			name = Release;
@@ -451,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTERUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "FINAL-LITTLE-MONSTER";
 			};
 			name = Debug;
@@ -462,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinmatejka2.FINAL-LITTLE-MONSTERUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "FINAL-LITTLE-MONSTER";
 			};
 			name = Release;
@@ -485,6 +528,7 @@
 				EA0CB7C61D22A94A00140380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0CB7C71D22A94A00140380 /* Build configuration list for PBXNativeTarget "FINAL-LITTLE-MONSTERTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +537,7 @@
 				EA0CB7C91D22A94A00140380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0CB7CA1D22A94A00140380 /* Build configuration list for PBXNativeTarget "FINAL-LITTLE-MONSTERUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +546,7 @@
 				EA0CB7CC1D22A94A00140380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
